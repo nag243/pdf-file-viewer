@@ -1,0 +1,23 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item:first-child {
+    flex: 1 4 40%;
+    margin-bottom: 50px;
+  }
+  
+  .item:nth-child(3) {
+    flex: 1 4 100%;
+    margin-bottom: 50px;
+  }
+  
+  .item {
+    flex: 1 1 40%;
+    height: 100px;
+    background-color: red;
+    margin: 0 20px;
+  }
+  
